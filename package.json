@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio ./wdio.conf.js"
+    "test": "wdio ./wdio.conf.js",
+    "wdio": "npx wdio wdio.conf.js"
   },
   "author": "",
   "license": "ISC",

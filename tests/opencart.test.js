@@ -39,7 +39,7 @@ console.log(await dropDownColor.getValue());*/
 
 });*/
 
-describe('OpenCart', () => {
+/*describe('OpenCart', () => {
   it('Debería buscar iphone', async ()=> {
     await browser.url('/');
     await expect(browser).toHaveUrl('http://opencart.abstracta.us/');
@@ -50,4 +50,4 @@ describe('OpenCart', () => {
     await expect(await $('h4')).toHaveText('iPhone', { message: 'Error: no se mostró el header esperado' }); 
   });
 
-});
+});*/
