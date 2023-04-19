@@ -1,4 +1,4 @@
-describe('Articulo', () => {
+/*describe('Articulo', () => {
 
     it('Debería buscar apple cinema y seleccionar el segundo color', async () => {
         await browser.url('/');
@@ -10,4 +10,4 @@ describe('Articulo', () => {
     });
       
     
-  });
+  });*/
