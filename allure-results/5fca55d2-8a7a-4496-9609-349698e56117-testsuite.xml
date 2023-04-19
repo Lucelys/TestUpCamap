@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1681916147637' stop='1681916156049'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1681916147638' status='broken' stop='1681916156048'>
+            <name>Debería buscar apple cinema y seleccionar el segundo color</name>
+            <title>Debería buscar apple cinema y seleccionar el segundo color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.49'/>
+            </parameters>
+            <steps>
+                <step start='1681916147729' status='passed' stop='1681916149956'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='612240c0-fcdf-4c71-95ac-da3721da2741-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681916149958' status='passed' stop='1681916149994'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='45a84ae6-15cf-4e24-9421-f77833fad774-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='23908e23-5c7b-4ad6-b256-78351959a860-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681916150000' status='passed' stop='1681916150053'>
+                    <name>POST /session/:sessionId/element/c2c706c6-446f-4ec2-9286-bf883c13d518/clear</name>
+                    <title>POST /session/:sessionId/element/c2c706c6-446f-4ec2-9286-bf883c13d518/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681916150060' status='passed' stop='1681916150153'>
+                    <name>POST /session/:sessionId/element/c2c706c6-446f-4ec2-9286-bf883c13d518/value</name>
+                    <title>POST /session/:sessionId/element/c2c706c6-446f-4ec2-9286-bf883c13d518/value</title>
+                    <attachments>
+                        <attachment title='Request' source='136347e1-587f-46da-81dc-86590a7319fc-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681916150153' status='passed' stop='1681916150685'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='e20596fd-b93a-4d69-a608-d8c40258cc05-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681916150685' status='passed' stop='1681916150715'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1681916155726' status='broken' stop='1681916156048'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='faeef311-e614-42a8-9cbf-419a6efd00d9-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps>
+                        <step start='1681916155889' status='passed' stop='1681916156047'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='ccdb69cb-4752-466f-832c-a4bcfabcbee9-attachment.png' type='image/png' size='141597'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "[@id="content"]/div[3]/div/div/div[1]/a/img" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "[@id="content"]/div[3]/div/div/div[1]/a/img" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\tests\/probando1.js:9:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
