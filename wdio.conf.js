@@ -223,6 +223,8 @@ exports.config = {
         chai.use(chaiWebdriver(browser));
         global.assert = chai.assert;
         global.expect = chai.expect;
+        const { addStep } = require('@wdio/allure-reporter').default
+        global.addStep = addStep
      },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling

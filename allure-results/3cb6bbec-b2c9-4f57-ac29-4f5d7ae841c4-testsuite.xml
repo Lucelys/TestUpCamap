@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1681933805329' stop='1681933808998'>
+    <name>buscando</name>
+    <title>buscando</title>
+    <test-cases>
+        <test-case start='1681933805330' status='broken' stop='1681933808996'>
+            <name>Debería buscar iphone</name>
+            <title>Debería buscar iphone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.49'/>
+            </parameters>
+            <steps>
+                <step start='1681933805622' status='passed' stop='1681933808498'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e83ac438-3442-4236-9975-6691e72d23dd-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1681933808522' status='passed' stop='1681933808990'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ef738851-610e-43a5-9050-1f2c1221bf9f-attachment.png' type='image/png' size='232636'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: toHaveUrl</message>
+                <stack-trace>Error: Invalid Chai property: toHaveUrl
+                    at Object.proxyGetter [as get] (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\tests\/actividad2.js:4:30)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
