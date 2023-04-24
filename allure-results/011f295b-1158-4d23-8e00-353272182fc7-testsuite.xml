@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682299211380' stop='1682299215515'>
+    <name>Articulo</name>
+    <title>Articulo</title>
+    <test-cases>
+        <test-case start='1682299211381' status='failed' stop='1682299215514'>
+            <name>Debería buscar apple cinema y seleccionar el segundo color</name>
+            <title>Debería buscar apple cinema y seleccionar el segundo color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.138'/>
+            </parameters>
+            <steps>
+                <step start='1682299211494' status='passed' stop='1682299214320'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2f05bf05-45c5-4ff4-aa52-ab8af70beee7-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682299214325' status='passed' stop='1682299214352'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c14bf566-d05f-419b-b6f7-79047858037b-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='abf53044-8185-48c5-9ae8-0138376cccc8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682299214361' status='passed' stop='1682299214407'>
+                    <name>POST /session/:sessionId/element/f6dbea06-29ed-480e-bb47-938f48bb15d5/clear</name>
+                    <title>POST /session/:sessionId/element/f6dbea06-29ed-480e-bb47-938f48bb15d5/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682299214415' status='passed' stop='1682299214530'>
+                    <name>POST /session/:sessionId/element/f6dbea06-29ed-480e-bb47-938f48bb15d5/value</name>
+                    <title>POST /session/:sessionId/element/f6dbea06-29ed-480e-bb47-938f48bb15d5/value</title>
+                    <attachments>
+                        <attachment title='Request' source='57e0a623-90f3-4e1b-a4f0-7e990f5ffcdc-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682299214530' status='passed' stop='1682299214574'>
+                    <name>GET /session/:sessionId/element/f6dbea06-29ed-480e-bb47-938f48bb15d5/property/value</name>
+                    <title>GET /session/:sessionId/element/f6dbea06-29ed-480e-bb47-938f48bb15d5/property/value</title>
+                    <attachments>
+                        <attachment title='Response' source='52199064-91f6-47ea-ba15-18e1490920a5-attachment.json' type='application/json' size='14'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682299214576' status='passed' stop='1682299215210'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='112400d5-2505-44a1-92a2-c097f1ceb7d1-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682299215210' status='passed' stop='1682299215229'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682299215230' status='passed' stop='1682299215266'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bcd93877-ae72-42ef-b534-4804f1276c3c-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='736ab1b0-9d34-495c-9492-cf313ce36641-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682299215272' status='passed' stop='1682299215312'>
+                    <name>GET /session/:sessionId/element/c41221bf-82e7-44e0-b647-85ebba25eaac/property/value</name>
+                    <title>GET /session/:sessionId/element/c41221bf-82e7-44e0-b647-85ebba25eaac/property/value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682299215326' status='passed' stop='1682299215510'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9801ad9b-d027-4dff-9224-dd0f53189da8-attachment.png' type='image/png' size='140348'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: no se mostro el texto esperado: expected null to equal 'Search - apple cinema'      
+                      actual expected
+                      
+                      null'Search - apple cinema'
+                      </message>
+                <stack-trace>AssertionError: Error: no se mostro el texto esperado: expected null to equal 'Search - apple cinema'
+                    at Context.&lt;anonymous> (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\tests\/actividad.js:9:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
