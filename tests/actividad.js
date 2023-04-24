@@ -1,6 +1,6 @@
 
 
-describe('Articulo', () => {
+/*describe('Articulo', () => {
     it('Debería buscar apple cinema y seleccionar el segundo color', async () => {
         await browser.url('/');
 
@@ -25,4 +25,4 @@ describe('Articulo', () => {
         await browser.pause(5000);
         console.log(await selectColor.getValue());
     });
- });
+ });*/

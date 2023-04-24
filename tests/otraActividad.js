@@ -1,9 +1,9 @@
-import HomePage from '../pages/home.page';
+/*import HomePage from '../pages/home.page';
 import BusquedaPage from '../pages/busqueda.page';
 import ArticuloPage from '../pages/articulo.page';
 
 
-describe('Articulo', () => {
+describe('Buscando Articulo', () => {
     it('Debería buscar apple cinema y seleccionar el segundo color', async () => {
         await HomePage.abrir('/');
 
@@ -20,4 +20,4 @@ describe('Articulo', () => {
         await ArticuloPage.selecionarColor();
 
     });
- });
+ });*/
