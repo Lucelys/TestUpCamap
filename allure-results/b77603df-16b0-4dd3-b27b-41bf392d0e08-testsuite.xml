@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682425342726' stop='1682425347801'>
+    <name>Probando WebdriverIO3</name>
+    <title>Probando WebdriverIO3</title>
+    <test-cases>
+        <test-case start='1682425342727' status='passed' stop='1682425347800'>
+            <name>Comparación de imágenes con página de WebdriverIO</name>
+            <title>Comparación de imágenes con página de WebdriverIO</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.138'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8eb7c364-46a0-4f56-8e03-37a5368ed9f3-attachment.png' type='image/png' size='161617'/>
+                <attachment title='Screenshot' source='9aa4c54e-0b71-43b2-938c-b1f0ce3fa18e-attachment.png' type='image/png' size='191277'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

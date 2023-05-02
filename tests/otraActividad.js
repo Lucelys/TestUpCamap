@@ -1,4 +1,4 @@
-/*import HomePage from '../pages/home.page';
+import HomePage from '../pages/home.page';
 import BusquedaPage from '../pages/busqueda.page';
 import ArticuloPage from '../pages/articulo.page';
 
@@ -20,4 +20,4 @@ describe('Buscando Articulo', () => {
         await ArticuloPage.selecionarColor();
 
     });
- });*/
+ });

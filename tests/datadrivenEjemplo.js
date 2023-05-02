@@ -1,4 +1,4 @@
-/*import homePage from '../pages/home.page'; 
+import homePage from '../pages/home.page'; 
 import busquedaPage from '../pages/busqueda.page';
 import DATOS from '../datos/articulos';
 
@@ -11,4 +11,4 @@ describe('Búsqueda', () => {
       expect(await busquedaPage.obtenerNombreResultado()).to.equal(articulo);
     });
   });
-});*/
+});

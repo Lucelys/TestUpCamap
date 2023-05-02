@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682427308560' stop='1682427310830'>
+    <name>Probando WebdriverIO3</name>
+    <title>Probando WebdriverIO3</title>
+    <test-cases>
+        <test-case start='1682427308562' status='failed' stop='1682427310830'>
+            <name>Comparación de imágenes con página de WebdriverIO</name>
+            <title>Comparación de imágenes con página de WebdriverIO</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.138'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3ad7534d-e1a5-4643-a542-0ba1817a0baf-attachment.png' type='image/png' size='153950'/>
+                <attachment title='Screenshot' source='a8efaf6c-8bce-4210-8525-9e8b4d80a193-attachment.png' type='image/png' size='154204'/>
+            </attachments>
+            <failure>
+                <message>Error: la barra de navegación de WebdriverIO no coincide con la original: expected 2.218 to equal +0      
+                      actual expected
+                      
+                      2.2180
+                      </message>
+                <stack-trace>AssertionError: Error: la barra de navegación de WebdriverIO no coincide con la original: expected 2.218 to equal +0
+                    at Context.&lt;anonymous> (C:\Users\Lucelys Arroyo\OneDrive\Documentos\GitHub\TestUpCamap\tests\/probandoWebdriver.js:34:11)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
